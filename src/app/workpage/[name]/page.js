@@ -5,7 +5,7 @@ import { Details, Explore, Homecrousel } from '@/components'
 import Collaborator from '@/components/collaborator'
 import { workPageDataWithId } from '@/constant'
 
-function page() {
+function Page() {
     const params = useParams();
     const pathname = params.name;
     
@@ -32,4 +32,4 @@ function page() {
     )
 }
 
-export default page
+export default Page
