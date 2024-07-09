@@ -8,7 +8,7 @@ import { usePathname } from 'next/navigation';
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const pathname = usePathname();
-  const specialPages = ['/workpage'];
+  const specialPages = ['/workpage','/workpage/chanel','/workpage/kobie-dee','/workpage/new-balance', '/workpage/new-north-face'];
   const isSpecialPage = specialPages.includes(pathname);
 
   return (
