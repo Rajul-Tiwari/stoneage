@@ -4,6 +4,7 @@ import { NavbarImg } from '@/assets';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import SideDrawer from '../drawer';
+import dynamic from 'next/dynamic';
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -109,4 +110,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default dynamic(() => Promise.resolve(Navbar), { ssr: false })
