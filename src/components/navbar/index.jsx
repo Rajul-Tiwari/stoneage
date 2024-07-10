@@ -4,7 +4,6 @@ import { NavbarImg } from '@/assets';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import dynamic from 'next/dynamic';
-import { SideDrawer } from '../drawer';
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -80,7 +79,6 @@ const Navbar = () => {
             </div>
           </div>
           <div className='lg:hidden'>
-            <SideDrawer/>
           </div>
         </div>
         <div className='flex justify-center'>
