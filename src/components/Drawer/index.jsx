@@ -6,7 +6,6 @@ import React from 'react'
 import Drawer from 'react-modern-drawer'
 
 const SideDrawer = () => {
-    
     const [isOpen, setIsOpen] = React.useState(false)
     const toggleDrawer = () => {
         setIsOpen((prevState) => !prevState)
