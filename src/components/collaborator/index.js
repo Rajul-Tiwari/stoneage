@@ -23,7 +23,7 @@ const Collaborator = ({ data }) => {
                             </div>
                         </div>
                     </div>
-                    <div className='lg:w-92p  '>
+                    <div className='lg:w-92p h-[700px] '>
                         <video preload="none"
                             autoPlay={true}
                             muted

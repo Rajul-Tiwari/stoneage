@@ -48,7 +48,7 @@ export default function servicecrousel({data}) {
       >
         {
 
-          data.serviceImages.map((elem, i) => (
+          data?.serviceImages.map((elem, i) => (
             <SwiperSlide key={i}>
               <img className='md:h-685 h-456 w-full object-cover' src={elem.src} alt="" />
             </SwiperSlide>

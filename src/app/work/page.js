@@ -2,7 +2,7 @@ import { Details, Explore, Homecrousel, ServiceCrousel, } from '@/components'
 import Collaborator from '@/components/collaborator'
 import React from 'react'
 
-const index = () => {
+const Page = () => {
   return (
     <div>
      
@@ -16,4 +16,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Page

@@ -29,10 +29,13 @@ import ExploreImg19 from '../assets/exploreimg19.png'
 import ExploreImg20 from '../assets/exploreimg20.png'
 import ExploreImg21 from '../assets/exploreimg21.png'
 import ExploreImg22 from '../assets/exploreimg22.png'
+import ExploreImg23 from '../assets/exploreImg23.png'
+import ExploreImg24 from '../assets/exploreimg24.png'
+import ExploreImg26 from '../assets/exploreimg26.png'
 
 import ContactImg from '../assets/contactImg.png'
 import Hamburger from '../assets/hamburger.svg'
 import DownArrow from '../assets/downarrow.svg'
 // import SliderVideo from '../assets/sliderVideo.mp4'
 
-export {DownArrow, Hamburger, ContactImg, ExploreImg2, ExploreImg3, ExploreImg4, ExploreImg5, ExploreImg6, ExploreImg9,ExploreImg11, ExploreImg12,ExploreImg13, ExploreImg14, ExploreImg15, ExploreImg16, ExploreImg17, ExploreImg18, ExploreImg19, ExploreImg20, ExploreImg21, ExploreImg22, ExploreImg, BlackArrow, NavbarImg, SliderImg1, SliderImg2, SliderGif, SliderImg4, rightArrow, Instagram, Be, Website, Linkedin, CollabImg }
+export {DownArrow, Hamburger, ContactImg, ExploreImg2, ExploreImg3, ExploreImg4, ExploreImg5, ExploreImg6, ExploreImg9,ExploreImg11, ExploreImg12,ExploreImg13, ExploreImg14, ExploreImg15, ExploreImg16, ExploreImg17, ExploreImg18, ExploreImg19, ExploreImg20, ExploreImg21, ExploreImg22, ExploreImg, BlackArrow, NavbarImg, SliderImg1, SliderImg2, SliderGif, SliderImg4, rightArrow, Instagram, Be, Website, Linkedin, CollabImg, ExploreImg23, ExploreImg24, ExploreImg26 }

@@ -8,18 +8,14 @@ import { workPageDataWithId } from '@/constant'
 function Page() {
     const params = useParams();
     const pathname = params.name;
+
     
-    const [currentData, setCurrentData] = useState();
-    // useEffect(() => {
-    // if (pathname) {
+
     const data = workPageDataWithId?.find((data) => data.name === pathname);
+
     if(!data){
        notFound();
     }
-    // setCurrentData(data)
-    // }
-    // }, []);
-    console.log(data, "data");
     return (
         <div>
             <Homecrousel color={true} hideText={true} />
@@ -32,4 +28,4 @@ function Page() {
     )
 }
 
-export default  Page
+export default Page

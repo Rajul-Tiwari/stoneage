@@ -1,4 +1,4 @@
-import { ExploreImg, ExploreImg2, ExploreImg7 } from '@/assets'
+import { ExploreImg, ExploreImg2, ExploreImg23, ExploreImg26, ExploreImg7 } from '@/assets'
 import React from 'react'
 import { ServiceCrousel } from '..';
 
@@ -26,18 +26,22 @@ const Index = ({ data }) => {
       </div>
       <ServiceCrousel data={data}/>
       <div className='py-16 md:w-11/12 p-8 mx-auto'>
-      <video 
+      {data?.detailsImages3 ? (
+          <video 
             preload="none"
             autoPlay={true}
             muted
             playsInline
             loop
-            className='w-full h-full object-cover'
+            className='w-full h-[95vh] object-cover'
             src={data?.detailsImages3}
             alt="Video not found"
           >
             <source src={data?.detailsImages3} type="video/mp4" />
           </video>
+        ) : (
+          <img src={ExploreImg26.src} alt="" className='w-full h-[95vh] object-cover' />
+        )}
       </div>
     </div>
   )
