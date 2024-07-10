@@ -2,8 +2,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { NavbarImg } from '@/assets';
 import Link from 'next/link';
-import { SideDrawer } from '..';
 import { usePathname } from 'next/navigation';
+import SideDrawer from '../drawer';
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
