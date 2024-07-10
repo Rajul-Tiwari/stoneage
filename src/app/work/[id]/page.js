@@ -7,7 +7,7 @@ import { workPageDataWithId } from '@/constant'
 
 function Page() {
     const params = useParams();
-    const pathname = params.name;
+    const pathname = params.id;
 
     
 

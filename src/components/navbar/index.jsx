@@ -3,8 +3,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { NavbarImg } from '@/assets';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import SideDrawer from '../drawer';
 import dynamic from 'next/dynamic';
+import { SideDrawer } from '../drawer';
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -80,7 +80,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className='lg:hidden'>
-            <SideDrawer />
+            <SideDrawer/>
           </div>
         </div>
         <div className='flex justify-center'>
